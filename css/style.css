@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Poppins:wght@400;500;600;700;900&display=swap");
+:root {
+  --mf-bg-prymary: #fffdfc;
+  --mf-font-family-prymary: "Poppins", sans-serif;
+  --mf-font-family-secondary: "Playfair Display", serif;
+  --mf-link-color: #00000080;
+}
+/* commoun style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* commoun style */
+
+/* body style start */
+body {
+  background: #fffdfc;
+  font-family: "Poppins", sans-serif;
+}
+body::after {
+  position: absolute;
+  top: 100%;
+  opacity: 0.05;
+  content: "Hello, There";
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  font-weight: 900;
+  font-size: 200px;
+  transform: translateY(-100%);
+}
+/* body style end */
+/* navbar style start */
+.navbar {
+  padding-top: 50px;
+}
+.navbar .navbar-brand img {
+  width: 100%;
+}
+.navbar .navbar-nav .nav-item {
+  padding: 0 10px !important;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: rgb(0, 0, 0, 0.5);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+/* navbar style eend */
+
+/* main section style */
+
+/* showcase style start */
+#main .showcase {
+  padding: 100px 0;
+}
+#main .showcase .biography p {
+  color: rgb(0, 0, 0, 0.7);
+  width: 649px;
+  line-height: 30px;
+  padding: 20px 0;
+}
+#main .showcase .btn-main {
+  color: black;
+  background: #f4f1ee;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+#main .showcase .btn-main:hover {
+  color: #fffdfc;
+  background: #9370db;
+}
+#main .showcase .call-to-action p {
+  color: rgb(0, 0, 0, 0.7);
+  line-height: 30px;
+}
+
+/* showcase style end */
+
+/* main section style */
