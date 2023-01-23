@@ -1,0 +1,75 @@
+/* body style start */
+body {
+  height: 100vh;
+  position: relative;
+  background: #fffdfc;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+body::after {
+  position: fixed;
+  top: 100%;
+  opacity: 0.05;
+  content: "About Me";
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  font-weight: 900;
+  font-size: 200px;
+  transform: translateY(-100%);
+  z-index: -1;
+}
+/* body style end */
+/* main section style start */
+#main .timeline h4 {
+  margin: 75px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+#main .timeline .intro-text {
+  margin: 75px 0;
+  font-size: 60px;
+  font-weight: 700;
+}
+#main .timeline .article::before {
+  content: " ";
+  background: #e0e0e0;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  width: 1px;
+  top: 4px;
+  height: 100%;
+  z-index: 400;
+}
+#main .timeline .article li {
+  list-style: none;
+}
+#main .timeline .article li::before {
+  content: " ";
+  background: #fffdfc;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid black;
+  left: -7px;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+  z-index: 400;
+}
+#main .timeline .article li a {
+  text-decoration: none;
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 600;
+}
+#main .timeline .article li a:hover {
+  text-decoration: underline;
+}
+#main .timeline .article li p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* main section style end */
