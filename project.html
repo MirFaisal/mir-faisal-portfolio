@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Mir Faisal Ahmad</title>
+    <!-- remote css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- remote css -->
+    <!-- loval css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/project.css" />
+
+    <!-- local css -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a
+          class="navbar-brand w-25 d-flex justify-content-start"
+          href="./index.html"
+        >
+          <img src="./images/logo/default.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 d-flex justify-content-end mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <!-- main section -->
+    <section id="main">
+      <div class="container">
+        <!-- Project section / using mixItUp plugin -->
+        <div class="timeline w-75 m-auto">
+          <h2 class="intro-text">Project.</h2>
+          <!-- mixItUp nav-bar -->
+          <div class="nav-btn d-flex w-75 justify-content-evenly m-auto">
+            <button class="btn-main" type="button" data-filter="all">
+              All
+            </button>
+            <button class="btn-main" type="button" data-filter=".e-commerce">
+              E-commerce
+            </button>
+            <button class="btn-main" type="button" data-filter=".education">
+              Education
+            </button>
+            <button class="btn-main" type="button" data-filter=".agency">
+              Agency
+            </button>
+            <button class="btn-main" type="button" data-filter=".sports">
+              Sports
+            </button>
+          </div>
+          <!-- mixItUp nav-bar end-->
+          <!-- mixItUp container start-->
+          <div class="project-preview">
+            <!-- brightskills showcase start -->
+            <div
+              class="mix education e-commerce item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#brightskills-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay brightskills">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>brightskills</h3>
+                    <p>This is an app landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for Brightskills start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="brightskills-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Brightskills</h3>
+                  <p class="mb-4">This is an app landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img
+                    src="./images/projects-preview/brightSkills.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    BrightSkills is one of the best e-learning skill development
+                    platform in Bangladesh. We are committed to eliminating
+                    unemployment from the country and creating global human
+                    resources through skill development.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a href="https://mirfaisal.github.io/bright-skill-app/"
+                    >https://mirfaisal.github.io/bright-skill-app/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a href="https://github.com/MirFaisal/bright-skill-app"
+                    >https://github.com/MirFaisal/bright-skill-app</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a
+                    class=""
+                    href="https://mirfaisal.github.io/bright-skill-app/"
+                  >
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for Brightskills end-->
+            <!-- brightskills showcase end -->
+            <!-- soccer-live-score showcaase start -->
+            <div
+              class="mix sports item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#soccer-live-score-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay soccer-live-score">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>Soccer Live Score</h3>
+                    <p>This is a Sports Site</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for soccer-live-score start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="soccer-live-score-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Soccer Live Score</h3>
+                  <p class="mb-4">This is a Sports Site</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img
+                    src="./images/projects-preview/Soccer-Live-Score.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a href="https://mirfaisal.github.io/soccer-live-score/"
+                    >https://mirfaisal.github.io/soccer-live-score/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a href="https://github.com/MirFaisal/soccer-live-score"
+                    >https://github.com/MirFaisal/soccer-live-score</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a
+                    class=""
+                    href="https://mirfaisal.github.io/soccer-live-score/"
+                  >
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for soccer-live-score end-->
+            <!-- soccer-live-score showcaase end -->
+            <!--  Omah showcaase start -->
+            <div
+              class="mix agency item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#Omah-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay Omah">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>Omah</h3>
+                    <p>This is a Real Ested landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for Omah  start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="Omah-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Omah</h3>
+                  <p class="mb-4">This is a Real Ested landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img src="./images/projects-preview/Real-Estate.png" alt="" />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a
+                    href="https://mirfaisal.github.io/real-estate-landing-page/"
+                    >https://mirfaisal.github.io/real-estate-landing-page/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a
+                    href="https://github.com/MirFaisal/real-estate-landing-page"
+                    >https://github.com/MirFaisal/real-estate-landing-page</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a
+                    class=""
+                    href="https://mirfaisal.github.io/real-estate-landing-page/"
+                  >
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for Omah  end-->
+            <!--  Omah showcaase end -->
+            <!--  panda-commerce-bootstrap showcase start -->
+            <div
+              class="mix e-commerce item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#panda-commerce-bootstrap-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay panda-commerce-bootstrap">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>Panda Commerce</h3>
+                    <p>This is a E-commerce landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for panda-commerce-bootstrap start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="panda-commerce-bootstrap-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Omah</h3>
+                  <p class="mb-4">This is a Real Ested landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img
+                    src="./images/projects-preview/panda-commerce-bootstrap.png"
+                    alt=""
+                  />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a
+                    href="https://mirfaisal.github.io/panda-commerce-bootstrap/"
+                    >https://mirfaisal.github.io/panda-commerce-bootstrap/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a
+                    href="https://github.com/MirFaisal/panda-commerce-bootstrap"
+                    >https://github.com/MirFaisal/panda-commerce-bootstrap</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a
+                    class=""
+                    href="https://mirfaisal.github.io/panda-commerce-bootstrap/"
+                  >
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for panda-commerce-bootstrap end-->
+            <!--  panda-commerce-bootstrap showcase end -->
+            <!--  the-charity showcase start -->
+            <div
+              class="mix agency item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#the-charity-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay the-charity">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>The Charity</h3>
+                    <p>This is a Agency landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for the-charity start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="the-charity-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">The Charity</h3>
+                  <p class="mb-4">This is a Agency landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img src="./images/projects-preview/The Charity.png" alt="" />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a href="https://mirfaisal.github.io/the-charity/"
+                    >https://mirfaisal.github.io/the-charity/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a href="https://github.com/MirFaisal/the-charity"
+                    >https://github.com/MirFaisal/the-charity</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a class="" href="https://mirfaisal.github.io/the-charity/">
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for the-charity end-->
+            <!--  the-charity showcase end -->
+            <!--  course-basket showcase start -->
+            <div
+              class="mix education e-commerce item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#course-basket-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay course-basket">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>course-basket</h3>
+                    <p>This is a Education landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for course-basket start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="course-basket-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Course Basket</h3>
+                  <p class="mb-4">This is an Education landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img src="./images/projects-preview/The Charity.png" alt="" />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a href="https://mirfaisal.github.io/course-basket/"
+                    >https://mirfaisal.github.io/course-basket/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a href="https://github.com/MirFaisal/course-basket"
+                    >https://github.com/MirFaisal/course-basket</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a class="" href="https://mirfaisal.github.io/course-basket/">
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for course-basket end-->
+            <!--  course-basket showcase end -->
+            <!--  eat-healthy showcase start -->
+            <div
+              class="mix agency item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#eat-healthy-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay eat-healthy">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>Eat Healthy</h3>
+                    <p>This is a Agency landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for eat-healthy start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="eat-healthy-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Eat Healthy</h3>
+                  <p class="mb-4">This is an Agency landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img src="./images/projects-preview/Eat Healthy.png" alt="" />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a href="https://mirfaisal.github.io/eat-healthy/"
+                    >https://mirfaisal.github.io/eat-healthy/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a href="https://github.com/MirFaisal/eat-healthy"
+                    >https://github.com/MirFaisal/eat-healthy</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a class="" href="https://mirfaisal.github.io/eat-healthy/">
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for eat-healthy end-->
+            <!--  eat-healthy showcase end -->
+            <!--  agenc-bs showcase start -->
+            <div
+              class="mix agency item"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#agenc-bs-offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="overlay agenc-bs">
+                <div class="info">
+                  <div class="inner-info ps-4">
+                    <h3>Agenc</h3>
+                    <p>This is a Agency landing page</p>
+                    <div class="technologies">
+                      <small>HTML</small>
+                      <small>CSS</small>
+                      <small>Bootstrap</small>
+                      <small>JavaScript</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for agenc-bs start-->
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="agenc-bs-offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="close border-0 bg-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-arrow-left"></i>
+                </button>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                  <a href="./project.html">Back To Project</a>
+                </h5>
+              </div>
+              <div class="offcanvas-body">
+                <div class="text">
+                  <h3 class="mb-2">Agenc</h3>
+                  <p class="mb-4">This is an Agency landing page</p>
+                </div>
+                <div class="offcanvas-showcase my-5">
+                  <img src="./images/projects-preview/agenc.png" alt="" />
+                </div>
+                <div class="about my-4">
+                  <h5 class="mb-2">About</h5>
+                  <p>
+                    This website offers real-time updates on soccer matches,
+                    including scores, time, and cards. Users can view scores
+                    from various leagues and tournaments. Additionally, team
+                    lineups, statistics and live text commentary and video
+                    highlights are also provided.
+                  </p>
+                </div>
+                <div class="inner-technologies my-4">
+                  <h5 class="mb-2">Technologies</h5>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
+                </div>
+                <div class="live-link my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-solid fa-globe"></i> Website
+                  </h5>
+                  <a href="https://mirfaisal.github.io/agenc-bs/"
+                    >https://mirfaisal.github.io/agenc-bs/</a
+                  >
+                </div>
+                <div class="github-repo my-4">
+                  <h5 class="mb-2">
+                    <i class="fa-brands fa-github"></i> Github
+                  </h5>
+                  <a href="https://github.com/MirFaisal/agenc-bs"
+                    >https://github.com/MirFaisal/agenc-bs</a
+                  >
+                </div>
+                <div class="offcanvas-footer w-50 m-auto">
+                  <a class="" href="https://mirfaisal.github.io/agenc-bs/">
+                    Open project
+                    <i class="ms-1 fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- offcanvas section for agenc-bs end-->
+            <!--  agenc-bs showcase end -->
+          </div>
+          <!-- mixItUp container end-->
+          <!-- social link -->
+          <button class="btn btn-sm btn-action" type="">
+            Lets Go To My Resume. <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <div
+            class="social-link d-flex justify-content-between align-items-center w-25"
+          >
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <!-- Project section / using mixItUp plugin end-->
+      </div>
+    </section>
+    <!-- main Section End -->
+    <!-- JQuary CDN -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- JQuary CDN -->
+
+    <!-- mix it up -->
+    <script src="js/mixitup.min.js"></script>
+    <script>
+      var mixer = mixitup(".project-preview");
+    </script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/deb5ec3c82.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

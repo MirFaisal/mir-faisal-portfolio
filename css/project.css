@@ -1,0 +1,270 @@
+/* body style start */
+body {
+  height: 100vh;
+  position: relative;
+  background: #f3edea;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+body::after {
+  position: fixed;
+  top: 90%;
+  left: -70px;
+  opacity: 0.05;
+  content: "Project";
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  writing-mode: vertical-lr;
+  font-weight: 900;
+  font-size: 250px;
+  transform: translateY(-100%);
+  z-index: -1;
+}
+/* body style end */
+#main .timeline .intro-text {
+  margin: 75px 0;
+  font-size: 60px;
+  font-weight: 700;
+}
+#main .timeline .nav-btn {
+  padding-bottom: 30px;
+}
+#main .timeline .nav-btn .mixitup-control-active {
+  color: #fffdfc !important;
+  background: #9370db !important;
+}
+#main .timeline .nav-btn .btn-main {
+  padding: 5px 20px;
+  color: black;
+  background: #f4f1ee;
+  outline: none;
+  transition: all 0.5s ease;
+  border: 0;
+  border-radius: 5px;
+}
+
+#main .timeline .nav-btn .btn-main:hover {
+  color: #fffdfc;
+  background: #9370db;
+}
+#main .timeline .project-preview {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+#main .timeline .project-preview .item {
+  width: 48%;
+  height: 250px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#main .timeline .project-preview .item .overlay {
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+}
+#main .timeline .project-preview .item .overlay .info {
+  width: 100%;
+  height: 100%;
+  display: none;
+  transition: all 0.4s;
+}
+#main .timeline .project-preview .item .overlay .inner-info {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#main .timeline .project-preview .item .overlay .inner-info h3 {
+  color: #f4f1ee;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#main .timeline .project-preview .item .overlay .inner-info p {
+  color: #f4f1ee;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+#main
+  .timeline
+  .project-preview
+  .item
+  .overlay
+  .inner-info
+  .technologies
+  small {
+  background: #8584848d;
+  font-size: 11px;
+  display: inline-block;
+  color: #fffdfc;
+  padding: 4px 10px;
+  border-radius: 50px;
+}
+#main .timeline .project-preview .item .overlay:hover {
+  box-shadow: 0px -143px 122px 0px rgba(0, 0, 0, 0.7) inset;
+  -webkit-box-shadow: 0px -143px 122px 0px rgba(0, 0, 0, 0.7) inset;
+  -moz-box-shadow: 0px -143px 122px 0px rgba(0, 0, 0, 0.7) inset;
+}
+#main .timeline .project-preview .item .overlay:hover .info {
+  display: block;
+}
+#main .timeline .project-preview .item .brightskills {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/brightSkills.png) no-repeat center;
+  background-size: cover;
+}
+#main .timeline .project-preview .item .soccer-live-score {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/Soccer-Live-Score.png) no-repeat
+    center;
+  background-size: 150%;
+}
+#main .timeline .project-preview .item .Omah {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/Real-Estate.png) no-repeat center;
+  background-size: 130%;
+}
+#main .timeline .project-preview .item .panda-commerce-bootstrap {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/panda-commerce-bootstrap.png)
+    no-repeat center;
+  background-size: 110%;
+}
+#main .timeline .project-preview .item .the-charity {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/The\ Charity.png) no-repeat center;
+  background-size: 110%;
+}
+#main .timeline .project-preview .item .course-basket {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/Course\ Basket.png) no-repeat
+    center;
+  background-size: 130%;
+}
+#main .timeline .project-preview .item .eat-healthy {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/Eat\ Healthy.png) no-repeat center;
+  background-size: 130%;
+}
+#main .timeline .project-preview .item .agenc-bs {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/agenc.png) no-repeat center;
+  background-size: 130%;
+}
+.offcanvas {
+  width: 600px !important;
+  padding: 0 20px;
+}
+.offcanvas .offcanvas-header {
+  padding: 20px 0 !important;
+  border-bottom: 1px solid rgba(183, 183, 183, 0.287);
+}
+.offcanvas .offcanvas-header .close i {
+  font-size: 20px;
+}
+.offcanvas .offcanvas-header .close:focus {
+  outline: none;
+}
+.offcanvas .offcanvas-header .offcanvas-title a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+.offcanvas .offcanvas-header .offcanvas-title a:hover {
+  text-decoration: underline;
+}
+.offcanvas .offcanvas-body .text h3 {
+  font-weight: 600;
+}
+.offcanvas .offcanvas-body .text p {
+  font-size: 15px;
+}
+.offcanvas .offcanvas-body .offcanvas-showcase {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.offcanvas .offcanvas-body .offcanvas-showcase img {
+  width: 100%;
+  border-radius: 20px;
+}
+.offcanvas .offcanvas-body .about {
+  width: 500;
+}
+.offcanvas .offcanvas-body .about h5 {
+  font-weight: 600;
+}
+.offcanvas .offcanvas-body .about p {
+  font-size: 14px;
+}
+.offcanvas .offcanvas-body .inner-technologies h5 {
+  font-weight: 600;
+}
+
+.offcanvas .offcanvas-body .inner-technologies small {
+  background: #c7c7c78d;
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-block;
+  color: #000000;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.offcanvas .offcanvas-body .live-link h5 {
+  font-weight: 600;
+}
+.offcanvas .offcanvas-body .live-link a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.offcanvas .offcanvas-body .live-link a:hover {
+  text-decoration: underline;
+}
+.offcanvas .offcanvas-body .github-repo a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+.offcanvas .offcanvas-body .github-repo a:hover {
+  text-decoration: underline;
+}
+.offcanvas .offcanvas-body .offcanvas-footer {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+.offcanvas .offcanvas-body .offcanvas-footer a {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  display: inline-block;
+  color: #f4f1ee;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #000000;
+}
+.offcanvas .offcanvas-body .offcanvas-footer a:focus {
+  outline: none;
+}
+.offcanvas .offcanvas-body .offcanvas-footer a:hover {
+  text-decoration: underline;
+}
