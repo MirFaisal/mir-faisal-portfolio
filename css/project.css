@@ -120,6 +120,9 @@ body::after {
   height: 100%;
   background: url(../images/projects-preview/brightSkills.png) no-repeat center;
   background-size: cover;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .soccer-live-score {
   width: 100%;
@@ -127,12 +130,18 @@ body::after {
   background: url(../images/projects-preview/Soccer-Live-Score.png) no-repeat
     center;
   background-size: 150%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .Omah {
   width: 100%;
   height: 100%;
   background: url(../images/projects-preview/Real-Estate.png) no-repeat center;
   background-size: 130%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .panda-commerce-bootstrap {
   width: 100%;
@@ -140,12 +149,18 @@ body::after {
   background: url(../images/projects-preview/panda-commerce-bootstrap.png)
     no-repeat center;
   background-size: 110%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .the-charity {
   width: 100%;
   height: 100%;
   background: url(../images/projects-preview/The\ Charity.png) no-repeat center;
   background-size: 110%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .course-basket {
   width: 100%;
@@ -153,19 +168,48 @@ body::after {
   background: url(../images/projects-preview/Course\ Basket.png) no-repeat
     center;
   background-size: 130%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .eat-healthy {
   width: 100%;
   height: 100%;
   background: url(../images/projects-preview/Eat\ Healthy.png) no-repeat center;
   background-size: 130%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
 #main .timeline .project-preview .item .agenc-bs {
   width: 100%;
   height: 100%;
   background: url(../images/projects-preview/agenc.png) no-repeat center;
   background-size: 130%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
 }
+#main .timeline .project-preview .item .kubb-portfolio {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/kubb.png) no-repeat center;
+  background-size: 130%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+}
+#main .timeline .project-preview .item .influencer-gear {
+  width: 100%;
+  height: 100%;
+  background: url(../images/projects-preview/influencer-gear.png) no-repeat
+    center;
+  background-size: 130%;
+  box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+  -moz-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
+}
+
 .offcanvas {
   width: 600px !important;
   padding: 0 20px;
