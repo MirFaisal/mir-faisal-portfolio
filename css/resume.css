@@ -8,10 +8,10 @@ body {
 }
 body::after {
   position: fixed;
-  top: 90%;
+  top: 95%;
   left: -70px;
   opacity: 0.05;
-  content: "Resume";
+  content: "Resume.";
   font-family: "Playfair Display", serif;
   width: 100%;
   writing-mode: vertical-lr;

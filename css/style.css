@@ -41,7 +41,7 @@ body::after {
   position: fixed;
   top: 100%;
   opacity: 0.05;
-  content: "Hello, There";
+  content: "Hello, There.";
   font-family: "Playfair Display", serif;
   width: 100%;
   font-weight: 900;

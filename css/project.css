@@ -11,7 +11,7 @@ body::after {
   top: 90%;
   left: -70px;
   opacity: 0.05;
-  content: "Project";
+  content: "Project.";
   font-family: "Playfair Display", serif;
   width: 100%;
   writing-mode: vertical-lr;

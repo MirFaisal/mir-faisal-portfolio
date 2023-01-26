@@ -1,0 +1,22 @@
+/* body style start */
+body {
+  height: 100vh;
+  position: relative;
+  background: #f3edea;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+body::after {
+  position: fixed;
+  top: 100%;
+  left: -50px;
+  opacity: 0.05;
+  content: "Contact.";
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  font-weight: 900;
+  font-size: 250px;
+  transform: translateY(-100%);
+  z-index: -1;
+}
+/* body style end */

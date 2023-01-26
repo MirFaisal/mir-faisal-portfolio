@@ -10,7 +10,7 @@ body::after {
   position: fixed;
   top: 100%;
   opacity: 0.05;
-  content: "About Me";
+  content: "About Me.";
   font-family: "Playfair Display", serif;
   width: 100%;
   font-weight: 900;
