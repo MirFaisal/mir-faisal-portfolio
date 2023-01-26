@@ -6,8 +6,8 @@
   }
   /* animation */
   .glitch {
-    font-size: 45px;
-    margin-top: 60px;
+    font-size: 55px;
+    margin-top: 100px;
   }
   /* navbar */
   .navbar {
@@ -64,6 +64,7 @@
   }
   .btn-action {
     margin-top: 15px;
+    margin-bottom: 70px;
   }
   #main .social-link {
     width: 100% !important;
