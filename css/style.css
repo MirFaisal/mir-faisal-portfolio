@@ -52,7 +52,7 @@ body::after {
 /* body style end */
 /* navbar style start */
 .navbar {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .navbar .navbar-brand img {
   width: 30%;
