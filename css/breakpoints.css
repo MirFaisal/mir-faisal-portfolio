@@ -1,0 +1,78 @@
+/* For ex small */
+@media (min-width: 350px) and (max-width: 575.98px) {
+  /* index page */
+  .btn-main {
+    font-size: 14px;
+  }
+  /* animation */
+  .glitch {
+    font-size: 45px;
+    margin-top: 60px;
+  }
+  /* navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.205);
+    backdrop-filter: blur(15px);
+  }
+  .navbar .navbar-brand img {
+    width: 80%;
+  }
+  .navbar .navbar-toggler {
+    border: 0;
+  }
+  .navbar .navbar-toggler:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+  }
+  .navbar .navbar-nav {
+    align-items: center;
+    justify-content: start;
+    border-radius: 5px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: none;
+  }
+  /* body */
+
+  body::after {
+    top: 95%;
+    font-size: 60px;
+    transform: translateY(-95%);
+  }
+  #main .showcase {
+    padding-bottom: 0;
+    width: 100% !important;
+  }
+  #main .showcase .biography p {
+    width: auto;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  #main .showcase .call-to-action p {
+    font-size: 14px;
+    width: auto;
+    line-height: 35px;
+  }
+  .btn-action {
+    margin-top: 15px;
+  }
+  #main .social-link {
+    width: 100% !important;
+    padding: 20px 0;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transform: translateY(-100%);
+  }
+}

@@ -66,8 +66,12 @@ body::after {
 .navbar .navbar-nav .nav-item .nav-link {
   color: rgb(0, 0, 0, 0.5);
 }
+.navbar .navbar-nav .nav-item .active {
+  border-bottom: 1px solid #5c5c5c;
+}
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: rgb(0, 0, 0);
+  border-bottom: 1px solid #5c5c5c;
 }
 /* navbar style eend */
 
