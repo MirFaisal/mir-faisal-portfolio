@@ -8,7 +8,7 @@ body {
 }
 body::after {
   position: fixed;
-  top: 95%;
+  top: 98%;
   left: -70px;
   opacity: 0.05;
   content: "Resume.";

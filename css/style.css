@@ -18,7 +18,7 @@ p {
 }
 .btn-main {
   color: black;
-  background: #f4f1ee;
+  background: #c9c3c03b;
   outline: none;
   transition: all 0.5s ease;
 }
@@ -26,6 +26,9 @@ p {
 .btn-main:hover {
   color: #fffdfc;
   background: #9370db;
+}
+.btn-email {
+  cursor: crosshair;
 }
 /* commoun style */
 
@@ -115,6 +118,10 @@ body::after {
 }
 .btn-action:hover {
   color: rgb(255, 255, 255);
+}
+.btn-action:focus {
+  border: none;
+  outline: none;
 }
 #main .social-link {
   padding: 50px 0;

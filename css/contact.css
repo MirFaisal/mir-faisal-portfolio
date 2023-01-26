@@ -37,8 +37,8 @@ body::after {
   width: 80%;
   margin-bottom: 50px;
   padding: 10px 21px;
-  background: #f3edea;
-  border: 1px solid #808080;
+  background: transparent;
+  border: 1px solid #80808056;
   border-radius: 5px;
 }
 
@@ -46,16 +46,16 @@ body::after {
   width: 80%;
   margin-bottom: 50px;
   padding: 10px 21px;
-  background: #f3edea;
-  border: 1px solid #808080;
+  background: transparent;
+  border: 1px solid #80808056;
   border-radius: 5px;
 }
 #main .timeline .contact-form form textarea {
   width: 80%;
   margin-bottom: 50px;
   padding: 24px 21px;
-  background: #f3edea;
-  border: 1px solid #808080;
+  background: transparent;
+  border: 1px solid #80808056;
   border-radius: 5px;
 }
 #main .timeline .contact-form form input[type="text"]:focus,
