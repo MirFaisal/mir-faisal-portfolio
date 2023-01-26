@@ -69,7 +69,4 @@ body::after {
   background-color: black;
   border-radius: 5px;
 }
-#main .timeline .contact-form form button:focus {
-  outline: none;
-  border: none;
-}
+
