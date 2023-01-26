@@ -21,15 +21,16 @@
     <!-- loval css -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/breakpoints.css" />
 
     <!-- local css -->
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg p-0">
       <div class="container">
         <a
-          class="navbar-brand w-25 d-flex justify-content-start"
+          class="navbar-brand p-0 w-25 d-flex justify-content-start"
           href="./index.html"
         >
           <img src="./images/logo/Logo.png" alt="" />
@@ -43,31 +44,22 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav w-100 d-flex justify-content-end mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="./project.html"
+              <a class="nav-link" aria-current="page" href="./project.html"
                 >Project</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="./resume.html"
+              <a class="nav-link" aria-current="page" href="./resume.html"
                 >Resume</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="./contact.html"
+              <a class="nav-link" aria-current="page" href="./contact.html"
                 >Contact</a
               >
             </li>
@@ -81,14 +73,14 @@
       <div class="container">
         <div class="timeline m-auto w-75">
           <h2 class="intro-text">About Me.</h2>
-          <ul class="article position-relative">
+          <ul class="article position-relative p-3">
             <li class="mb-2">
-              <a href="#"> Engineering</a>
+              <a class="d-block"> Engineering</a>
               <small>
                 <i class="fa-brands fa-github"></i>
               </small>
               <a
-                class="float-end"
+                class="float-lg-end text-decoration-underline"
                 target="_blank"
                 href="https://github.com/MirFaisal"
                 >View Github</a
@@ -106,11 +98,15 @@
               </p>
             </li>
             <li class="mb-2">
-              <a href="#">Product</a>
+              <a class="d-block">Product</a>
               <small>
                 <i class="fa-solid fa-globe"></i>
               </small>
-              <a class="float-end" href="./project.html">View Products</a>
+              <a
+                class="float-lg-end text-decoration-underline"
+                href="./project.html"
+                >View Products</a
+              >
               <p class="">
                 In spite of not being an atypical product manager, I have strong
                 backgrounds in research, product design, and product
@@ -125,11 +121,12 @@
           <ul class="article position-relative">
             <li class="mb-2">
               <a
+                class="d-block"
                 target="_blank"
                 href="https://creativeitinstitute.com/courses/web-design"
                 >Web Designs.<small> creative IT institute</small></a
               >
-              <a href="#" class="float-end"
+              <a class="float-lg-end text-decoration-underline"
                 ><i class="fa-solid fa-calendar-days"></i> 2022</a
               >
               <p>
@@ -143,11 +140,12 @@
             </li>
             <li class="mb-2">
               <a
+                class="d-block"
                 target="_blank"
                 href="https://acumenacademy.org/course/design-kit-human-centered-design/"
                 >Human Centered Design 101. Acumen</a
               >
-              <a href="#" class="float-end"
+              <a class="float-lg-end text-decoration-underline"
                 ><i class="fa-solid fa-calendar-days"></i> Currently</a
               >
               <p>
@@ -161,11 +159,12 @@
             </li>
             <li class="mb-2">
               <a
+                class="d-block"
                 target="_blank"
                 href="https://learning.edx.org/course/course-v1:UQx+LGDM301x+3T2022/home"
                 >Adaptive Leadership. edX</a
               >
-              <a href="#" class="float-end"
+              <a class="float-lg-end text-decoration-underline"
                 ><i class="fa-solid fa-calendar-days"></i> Currently</a
               >
               <p>
@@ -179,7 +178,7 @@
             </li>
             <li class="mb-2">
               <a href="#">Learning Something Great 😉</a>
-              <a href="#" class="float-end"
+              <a class="float-lg-end"
                 ><i class="fa-solid fa-calendar-days"></i> Currently</a
               >
               <p>I continue learning everyday.</p>
@@ -189,7 +188,7 @@
             Lets Continue To Projects <i class="fa-solid fa-arrow-right"></i>
           </a>
           <div
-            class="social-link d-flex justify-content-between align-items-center w-25"
+            class="social-link d-flex justify-content-lg-between align-items-center w-25 justify-content-around"
           >
             <a
               target="_blank"

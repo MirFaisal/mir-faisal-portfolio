@@ -1,9 +1,15 @@
 /* For ex small */
 @media (min-width: 350px) and (max-width: 575.98px) {
   /* index page */
+  /* common style */
   .btn-main {
     font-size: 14px;
   }
+  .timeline {
+    width: 100% !important;
+  }
+  /* common style */
+
   /* animation */
   .glitch {
     font-size: 50px;
@@ -13,7 +19,7 @@
   .navbar {
     position: fixed;
     top: 0;
-    z-index: 99;
+    z-index: 999;
     background: rgba(255, 255, 255, 0.205);
     backdrop-filter: blur(15px);
   }
@@ -44,9 +50,10 @@
   /* body */
 
   body::after {
-    top: 95%;
-    font-size: 60px;
-    transform: translateY(-95%);
+    width: 400px;
+    top: 97%;
+    font-size: 80px;
+    transform: translateY(-97%);
   }
   #main .showcase {
     padding-bottom: 0;
@@ -76,4 +83,23 @@
     backdrop-filter: blur(5px);
     transform: translateY(-100%);
   }
+  /* index style end */
+  /* about style start */
+  #main .timeline .intro-text {
+    margin-top: 200px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  #main .timeline .article li a {
+    font-size: 14px;
+  }
+
+  #main .timeline .article li i {
+    display: none;
+  }
+  #main .timeline .article li p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  /* about style end */
 }
