@@ -70,7 +70,7 @@
     clip: rect(22px, 9999px, 30px, 0);
   }
 }
-.glitch:after {z
+.glitch:after {
   content: attr(data-text);
   position: absolute;
   left: 2px;
