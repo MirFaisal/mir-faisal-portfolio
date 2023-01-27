@@ -15,7 +15,8 @@
     position: fixed;
     bottom: 3%;
     left: 50%;
-    background: rgba(59, 59, 59, 0.082);
+    /* background: rgba(59, 59, 59, 0.082); */
+    background: #ffffff77;
     backdrop-filter: blur(20px);
     border-radius: 50px;
     transform: translate(-50%, -3%);
@@ -37,7 +38,7 @@
     position: fixed;
     top: 0;
     z-index: 999;
-    background: rgba(255, 255, 255, 0.466);
+    background: #ffffff77;
     backdrop-filter: blur(15px);
     border-radius: 0 0px 15px 15px;
   }
