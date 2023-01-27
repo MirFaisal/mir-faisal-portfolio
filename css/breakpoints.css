@@ -12,12 +12,12 @@
     width: 80% !important;
     padding: 20px 0;
     position: fixed;
-    top: 97%;
+    bottom: 3%;
     left: 50%;
     background: rgba(255, 255, 255, 0.178);
     backdrop-filter: blur(20px);
     border-radius: 50px;
-    transform: translate(-50%, -97%);
+    transform: translate(-50%, -3%);
   }
   #main .social-link i {
     font-size: 20px;
