@@ -63,8 +63,8 @@ body::after {
 .navbar .navbar-brand img {
   width: 30%;
 }
-.navbar .skip {
-  font-size: 35px;
+.navbar .skip i {
+  font-size: 40px;
 }
 .navbar .navbar-nav .nav-item {
   padding: 0 10px !important;
