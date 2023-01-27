@@ -30,11 +30,12 @@
   #main .social-link .offcanvas-bottom {
     position: absolute;
     transition: 0 !important;
-    height: 600px !important;
-    max-height: 600px !important;
-    bottom: 50%;
+    height: 300px !important;
+    max-height: 300px !important;
+    bottom: 0;
     background: #ffffff77;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
     border-radius: 0 0px 15px 15px;
     border: 0 !important;
     z-index: -1 !important;
