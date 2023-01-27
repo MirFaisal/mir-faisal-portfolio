@@ -20,11 +20,24 @@
     backdrop-filter: blur(15px);
     border-radius: 50px;
     transform: translate(-50%, -3%);
+    z-index: 9999;
   }
   #main .social-link i {
     font-size: 20px;
     color: black;
     font-weight: 700;
+  }
+  #main .social-link .offcanvas-bottom {
+    position: absolute;
+    transition: 0 !important;
+    height: 600px !important;
+    max-height: 600px !important;
+    bottom: 50%;
+    background: #ffffff77;
+    backdrop-filter: blur(15px);
+    border-radius: 0 0px 15px 15px;
+    border: 0 !important;
+    z-index: -1 !important;
   }
   /* common style */
 
@@ -53,12 +66,20 @@
     outline: 0;
     box-shadow: none;
   }
-  .navbar .navbar-nav {
+  .navbar .navbar-nav,
+  #main .social-link .offcanvas-bottom .offcanvas-body .navbar-nav {
     align-items: center;
     justify-content: start;
     border-radius: 5px;
   }
-  .navbar .navbar-nav .nav-item .nav-link {
+  .navbar .navbar-nav .nav-item .nav-link,
+  #main
+    .social-link
+    .offcanvas-bottom
+    .offcanvas-body
+    .navbar-nav
+    .nav-item
+    .nav-link {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     margin-bottom: 20px;

@@ -9,7 +9,7 @@
       href="./images/logo/favicon.png"
       type="image/x-icon"
     />
-    <title>Home | Mir Faisal Ahmad</title>
+    <title>Contact | Mir Faisal Ahmad</title>
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -40,18 +40,8 @@
         >
           <img src="./images/logo/Logo.png" alt="" />
         </a>
-        <!-- <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa-solid fa-bars"></i>
-        </button> -->
-        <div class="skip">
+
+        <div class="skip d-lg-none d-md-none">
           <a href="./resume.html">
             <i
               class="fa-duotone fa-circle-chevron-left me-2 text-decoration-none text-dark"
@@ -127,26 +117,6 @@
             Go Back Home
             <i class="fa-solid fa-arrow-right"></i>
           </a>
-          <!-- <div
-            class="social-link d-flex justify-content-lg-between align-items-center w-25 justify-content-around"
-          >
-            <a
-              target="_blank"
-              href="https://www.facebook.com/bluetoothfan.faisal"
-              ><i class="fa-brands fa-facebook-f"></i
-            ></a>
-            <a target="_blank" href="https://www.linkedin.com/in/mirfaisal08/"
-              ><i class="fa-brands fa-linkedin-in"></i
-            ></a>
-
-            <a target="_blank" href="https://github.com/MirFaisal"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a target="_blank" href="https://www.instagram.com/7ven9en3ee/"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </div> -->
-          <!-- test -->
           <div
             class="social-link d-flex justify-content-lg-between align-items-center w-25 justify-content-around"
           >
@@ -164,18 +134,61 @@
             <a target="_blank" href="https://github.com/MirFaisal"
               ><i class="fa-brands fa-github"></i
             ></a>
-            <!-- test navbar -->
+            <!-- navbar toggler button-->
             <button
-              class="navbar-toggler"
+              class="navbar-toggler d-lg-none d-md-none"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasBottom"
             >
               <i class="fa-solid fa-bars"></i>
             </button>
+            <!-- offcanvas for navbar toggler button -->
+
+            <div
+              class="offcanvas offcanvas-bottom"
+              data-bs-scroll="false"
+              data-bs-backdrop="false"
+              tabindex="-1"
+              id="offcanvasBottom"
+              aria-labelledby="offcanvaBottomLabel"
+            >
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav w-100 d-flex justify-content-end mb-2 mb-lg-0"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./project.html"
+                      >Project</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./resume.html"
+                      >Resume</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="./contact.html"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- offcanvas for navbar toggler button -->
+
+            <!-- navbar toggler button-->
           </div>
         </div>
       </div>
