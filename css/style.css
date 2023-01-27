@@ -5,6 +5,9 @@
   --mf-font-family-secondary: "Playfair Display", serif;
   --mf-link-color: #00000080;
 }
+* {
+  scroll-behavior: smooth;
+}
 /* commoun style */
 h1,
 h2,
