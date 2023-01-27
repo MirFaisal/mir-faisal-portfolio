@@ -8,6 +8,22 @@
   .timeline {
     width: 100% !important;
   }
+  #main .social-link {
+    width: 80% !important;
+    padding: 20px 0;
+    position: fixed;
+    top: 97%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    transform: translate(-50%, -97%);
+  }
+  #main .social-link i {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+  }
   /* common style */
 
   /* animation */
@@ -73,16 +89,7 @@
     margin-top: 15px;
     margin-bottom: 70px;
   }
-  #main .social-link {
-    width: 100% !important;
-    padding: 20px 0;
-    position: fixed;
-    top: 100%;
-    left: 0;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px);
-    transform: translateY(-100%);
-  }
+
   /* index style end */
   /* about style start */
   #main .timeline .intro-text {
@@ -102,4 +109,18 @@
     line-height: 20px;
   }
   /* about style end */
+  /* project style start */
+  #main .timeline .nav-btn {
+    width: 100% !important;
+  }
+  #main .timeline .nav-btn .btn-main {
+    background: transparent;
+    font-size: 12px;
+    padding: 5px 5px;
+  }
+  #main .timeline .project-preview .item {
+    width: 100%;
+    height: 250px;
+  }
+  /* project style end */
 }
