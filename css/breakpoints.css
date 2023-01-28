@@ -29,14 +29,16 @@
   #main .social-link .offcanvas-bottom {
     position: absolute;
     transition: 0 !important;
-    height: 420px !important;
     max-height: 420px !important;
     bottom: 0;
-    background: #f1f1f1ee;
+    background: #fafafa;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     border-radius: 50px 50px 34px 34px !important;
     border: 0 !important;
     z-index: -1 !important;
   }
+
   /* common style */
 
   /* animation */
