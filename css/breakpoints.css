@@ -15,12 +15,11 @@
     position: fixed;
     bottom: 3%;
     left: 50%;
-    /* background: rgba(59, 59, 59, 0.082); */
     background: #ffffff77;
     backdrop-filter: blur(15px);
     border-radius: 50px;
     transform: translate(-50%, -3%);
-    z-index: 9999;
+    z-index: 999;
   }
   #main .social-link i {
     font-size: 20px;
@@ -33,10 +32,8 @@
     height: 420px !important;
     max-height: 420px !important;
     bottom: 0;
-    background: #ffffff77;
-    backdrop-filter: blur(20px);
-    border-radius: 50px !important;
-    border-radius: 0 0px 15px 15px;
+    background: #f1f1f1ee;
+    border-radius: 50px 50px 34px 34px !important;
     border: 0 !important;
     z-index: -1 !important;
   }
