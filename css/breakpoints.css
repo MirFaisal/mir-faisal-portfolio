@@ -15,7 +15,7 @@
     position: fixed;
     bottom: 3%;
     left: 50%;
-    background: #fafafa;
+    background: #ffffff77;
     backdrop-filter: blur(15px);
     border-radius: 50px;
     transform: translate(-50%, -3%);
@@ -31,7 +31,7 @@
     transition: 0 !important;
     max-height: 420px !important;
     bottom: 0;
-    background: #fafafa18;
+    background: #fafafa;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 50px 50px 34px 34px !important;
