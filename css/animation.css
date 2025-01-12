@@ -74,7 +74,8 @@
   content: attr(data-text);
   position: absolute;
   left: 1px;
-  text-shadow: -1px 0 rgb(255, 85, 85);
+  /* text-shadow: -2px 0 rgb(255, 85, 85); */
+  text-shadow: -3px 0 var(--mf-link-hover-color);
   top: 0;
   color: black;
   background: #f3edea;
@@ -152,7 +153,7 @@
   content: attr(data-text);
   position: absolute;
   left: -1px;
-  text-shadow: 1px 0 rgb(215, 193, 250);
+  text-shadow: 1px 0 rgb(206, 44, 44);
   top: 0;
   color: black;
   background: #f3edea;
