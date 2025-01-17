@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -128,10 +128,10 @@
    </head>
    <body>
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg p-0">
+      <nav class="navbar navbar-expand-lg p-0" itemscope itemtype="http://schema.org/SiteNavigationElement">
          <div class="container">
-            <a class="navbar-brand p-0 w-50 d-flex justify-content-start" href="./index.html">
-               <img class="py-2" src="./images/logo/logo-animation.svg" alt="" />
+            <a class="navbar-brand p-0 w-50 d-flex justify-content-start" href="./index.html" itemprop="url">
+               <img class="py-2" src="./images/logo/logo-animation.svg" alt="Logo" itemprop="logo" />
             </a>
 
             <div class="skip d-flex d-lg-none d-md-none">
@@ -159,13 +159,13 @@
       </nav>
       <!-- navbar -->
       <!-- main section -->
-      <section id="main">
+      <section id="main" itemscope itemtype="http://schema.org/AboutPage">
          <div class="container">
             <div class="timeline m-auto w-75">
-               <h2 class="intro-text">About Me.</h2>
+               <h2 class="intro-text" itemprop="headline">About Me.</h2>
                <ul class="article position-relative p-3">
-                  <li class="mb-2">
-                     <a class="d-block d-lg-inline-block"> Engineering</a>
+                  <li class="mb-2" itemscope itemtype="http://schema.org/CreativeWork">
+                     <a class="d-block d-lg-inline-block" itemprop="name"> Engineering</a>
                      <small>
                         <i class="fa-brands fa-github"></i>
                      </small>
@@ -173,9 +173,10 @@
                         class="float-lg-end text-decoration-underline"
                         target="_blank"
                         href="https://github.com/MirFaisal"
+                        itemprop="url"
                         >View Github</a
                      >
-                     <p class="">
+                     <p class="" itemprop="description">
                         When it comes to business, first impressions matter, and good website design is the
                         key to capitalizing on them. An excellent site is not judged solely on its looks, but
                         on its functionality and usability as well. My experience as a programmer allows me to
@@ -184,13 +185,15 @@
                         of recognized technical standards, I am conversant with modern building practices.
                      </p>
                   </li>
-                  <li class="mb-2">
-                     <a class="d-block d-lg-inline-block">Product</a>
+                  <li class="mb-2" itemscope itemtype="http://schema.org/CreativeWork">
+                     <a class="d-block d-lg-inline-block" itemprop="name">Product</a>
                      <small>
                         <i class="fa-solid fa-globe"></i>
                      </small>
-                     <a class="float-lg-end text-decoration-underline" href="./project.html">View Products</a>
-                     <p class="">
+                     <a class="float-lg-end text-decoration-underline" href="./project.html" itemprop="url"
+                        >View Products</a
+                     >
+                     <p class="" itemprop="description">
                         In spite of not being an atypical product manager, I have strong backgrounds in
                         research, product design, and product coordination that can help the product grow from
                         0 to 1. As a first-rate analytical thinker, I am able to maintain the product's vision
@@ -200,9 +203,10 @@
                </ul>
                <h4>My Reads.</h4>
                <ul class="article position-relative">
-                  <li class="mb-2">
+                  <li class="mb-2" itemscope itemtype="http://schema.org/CreativeWork">
                      <a
                         class="d-block d-lg-inline"
+                        itemprop="url"
                         target="_blank"
                         href="https://creativeitinstitute.com/courses/web-design"
                         >Web Designs.<small> creative IT institute</small></a
@@ -210,7 +214,7 @@
                      <a class="float-lg-end text-decoration-underline"
                         ><i class="fa-solid fa-calendar-days"></i> 2022</a
                      >
-                     <p>
+                     <p itemprop="description">
                         This is an intensive, hands-on learning experience that will challenge you to get out
                         of your chair and out into the real world to talk to people and test your ideas.
                         You’ll leave this experience equipped and energized to apply the human-centered design
@@ -218,9 +222,10 @@
                         breakthrough ideas.
                      </p>
                   </li>
-                  <li class="mb-2">
+                  <li class="mb-2" itemscope itemtype="http://schema.org/CreativeWork">
                      <a
                         class="d-block d-lg-inline"
+                        itemprop="url"
                         target="_blank"
                         href="https://acumenacademy.org/course/design-kit-human-centered-design/"
                         >Human Centered Design 101. Acumen</a
@@ -228,7 +233,7 @@
                      <a class="float-lg-end text-decoration-underline"
                         ><i class="fa-solid fa-calendar-days"></i> Currently</a
                      >
-                     <p>
+                     <p itemprop="description">
                         This is an intensive, hands-on learning experience that will challenge you to get out
                         of your chair and out into the real world to talk to people and test your ideas.
                         You’ll leave this experience equipped and energized to apply the human-centered design
@@ -236,9 +241,10 @@
                         breakthrough ideas.
                      </p>
                   </li>
-                  <li class="mb-2">
+                  <li class="mb-2" itemscope itemtype="http://schema.org/CreativeWork">
                      <a
                         class="d-block d-lg-inline"
+                        itemprop="url"
                         target="_blank"
                         href="https://learning.edx.org/course/course-v1:UQx+LGDM301x+3T2022/home"
                         >Adaptive Leadership. edX</a
@@ -246,7 +252,7 @@
                      <a class="float-lg-end text-decoration-underline"
                         ><i class="fa-solid fa-calendar-days"></i> Currently</a
                      >
-                     <p>
+                     <p itemprop="description">
                         This introductory course helps you identify and make progress on a leadership
                         challenge in your own life, team, or community. You’ll apply the tools and techniques
                         of Adaptive Leadership, a practical framework developed at Harvard Kennedy School of
@@ -254,28 +260,28 @@
                         are no easy answers.
                      </p>
                   </li>
-                  <li class="mb-2">
-                     <a>Learning Something Great 😉</a>
+                  <li class="mb-2" itemscope itemtype="http://schema.org/CreativeWork">
+                     <a itemprop="name">Learning Something Great 😉</a>
                      <a class="float-lg-end"><i class="fa-solid fa-calendar-days"></i> Currently</a>
-                     <p>I continue learning everyday.</p>
+                     <p itemprop="description">I continue learning everyday.</p>
                   </li>
                </ul>
-               <a class="btn btn-sm btn-action" href="./project.html" type="">
+               <a class="btn btn-sm btn-action" href="./project.html" type="" itemprop="url">
                   Lets Continue To Projects <i class="fa-solid fa-arrow-right"></i>
                </a>
                <div
                   class="social-link d-flex justify-content-lg-between align-items-center w-25 justify-content-around"
                >
-                  <a target="_blank" href="https://github.com/MirFaisal"
+                  <a target="_blank" href="https://github.com/MirFaisal" itemprop="sameAs"
                      ><i class="fa-brands fa-github"></i
                   ></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/mirfaisal08/"
+                  <a target="_blank" href="https://www.linkedin.com/in/mirfaisal08/" itemprop="sameAs"
                      ><i class="fa-brands fa-linkedin-in"></i
                   ></a>
-                  <a target="_blank" href="https://www.facebook.com/bluetoothfan.faisal"
+                  <a target="_blank" href="https://www.facebook.com/bluetoothfan.faisal" itemprop="sameAs"
                      ><i class="fa-brands fa-facebook-f"></i
                   ></a>
-                  <a href="./contact.html"><i class="fa-regular fa-envelope-open"></i></a>
+                  <a href="./contact.html" itemprop="sameAs"><i class="fa-regular fa-envelope-open"></i></a>
                   <!-- navbar toggler button-->
                   <button
                      class="navbar-toggler d-lg-none d-md-none"
