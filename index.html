@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
    <head>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,6 +23,9 @@
       <meta property="og:image:height" content="630" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://mirfaisal.me" />
+      <meta itemprop="name" content="Mir Faisal Ahmad" />
+      <meta itemprop="description" content="Explore Mir Faisal Ahmad's portfolio, showcasing expertise in fullstack development, UX architecture, and innovative tech solutions." />
+      <meta itemprop="image" content="https://mirfaisal.me/images/og/mirfaisalahmad.png" />
 
       <link rel="icon" type="image/png" href="/images/logo/favicon-96x96.png" sizes="96x96" />
       <link rel="icon" type="image/svg+xml" href="/images/logo/favicon.svg" />
@@ -133,10 +136,10 @@
    </head>
    <body>
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg p-0">
+      <nav class="navbar navbar-expand-lg p-0" itemscope itemtype="https://schema.org/SiteNavigationElement">
          <div class="container">
-            <a class="navbar-brand p-0 w-50 d-flex justify-content-start" href="./index.html">
-               <img class="py-2" src="./images/logo/logo-animation.svg" alt="" />
+            <a class="navbar-brand p-0 w-50 d-flex justify-content-start" href="./index.html" itemprop="url">
+               <img class="py-2" src="./images/logo/logo-animation.svg" alt="Mir Faisal Ahmad Logo" itemprop="logo" />
             </a>
             <!-- quick button start -->
             <div class="skip d-lg-none d-md-none">
@@ -148,30 +151,30 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav w-100 d-flex justify-content-end mb-2 mb-lg-0">
-                  <li class="nav-item">
-                     <a class="nav-link" aria-current="page" href="./about.html">About</a>
+                  <li class="nav-item" itemprop="name">
+                     <a class="nav-link" aria-current="page" href="./about.html" itemprop="url">About</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" aria-current="page" href="./project.html">Project</a>
+                  <li class="nav-item" itemprop="name">
+                     <a class="nav-link" aria-current="page" href="./project.html" itemprop="url">Project</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" aria-current="page" href="./resume.html">Resume</a>
+                  <li class="nav-item" itemprop="name">
+                     <a class="nav-link" aria-current="page" href="./resume.html" itemprop="url">Resume</a>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                  <li class="nav-item" itemprop="name">
+                     <a class="nav-link" aria-current="page" href="./contact.html" itemprop="url">Contact</a>
                   </li>
                </ul>
             </div>
          </div>
       </nav>
       <!-- navbar -->
-      <div id="main">
+      <div id="main" itemscope itemtype="https://schema.org/Person">
          <div class="container">
             <section
                class="showcase d-flex flex-column justify-content-center align-items-start w-75 mx-auto"
             >
-               <h1 class="glitch" data-text="I'm Mir Faisal Ahmad.">I'm Mir Faisal Ahmad.</h1>
-               <div class="biography">
+               <h1 class="glitch" data-text="I'm Mir Faisal Ahmad." itemprop="name">I'm Mir Faisal Ahmad.</h1>
+               <div class="biography" itemprop="description">
                   <p>
                      Fullstack developer, UX architect,
                      <a class="btn btn-sm btn-main" href="">New Tech</a>
@@ -191,7 +194,7 @@
                      <a class="btn btn-sm btn-main" href="./resume.html">Resume</a> ,
                      <a class="btn btn-sm btn-main" href="./contact.html">Contact Me</a>
                      or send me an email at
-                     <a class="btn btn-sm btn-main btn-email" href="#">mirfaisal08@gmail.com</a>.
+                     <a class="btn btn-sm btn-main btn-email" href="mailto:mirfaisal08@gmail.com" itemprop="email">mirfaisal08@gmail.com</a>.
                   </p>
                   <a class="btn btn-sm btn-action" href="./about.html" type="">
                      See More About Me <i class="fa-solid fa-arrow-right"></i>
@@ -200,13 +203,13 @@
                <div
                   class="social-link d-flex justify-content-lg-between align-items-center w-25 justify-content-around"
                >
-                  <a target="_blank" href="https://github.com/MirFaisal"
+                  <a target="_blank" href="https://github.com/MirFaisal" itemprop="sameAs"
                      ><i class="fa-brands fa-github"></i
                   ></a>
-                  <a target="_blank" href="https://www.linkedin.com/in/mirfaisal08/"
+                  <a target="_blank" href="https://www.linkedin.com/in/mirfaisal08/" itemprop="sameAs"
                      ><i class="fa-brands fa-linkedin-in"></i
                   ></a>
-                  <a target="_blank" href="https://www.facebook.com/bluetoothfan.faisal"
+                  <a target="_blank" href="https://www.facebook.com/bluetoothfan.faisal" itemprop="sameAs"
                      ><i class="fa-brands fa-facebook-f"></i
                   ></a>
                   <a href="./contact.html"><i class="fa-regular fa-envelope-open"></i></a>
@@ -231,17 +234,17 @@
                   >
                      <div class="offcanvas-body">
                         <ul class="navbar-nav w-100 d-flex justify-content-end mb-2 mb-lg-0">
-                           <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="./about.html">About</a>
+                           <li class="nav-item" itemprop="name">
+                              <a class="nav-link" aria-current="page" href="./about.html" itemprop="url">About</a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="./project.html">Project</a>
+                           <li class="nav-item" itemprop="name">
+                              <a class="nav-link" aria-current="page" href="./project.html" itemprop="url">Project</a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="./resume.html">Resume</a>
+                           <li class="nav-item" itemprop="name">
+                              <a class="nav-link" aria-current="page" href="./resume.html" itemprop="url">Resume</a>
                            </li>
-                           <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                           <li class="nav-item" itemprop="name">
+                              <a class="nav-link" aria-current="page" href="./contact.html" itemprop="url">Contact</a>
                            </li>
                         </ul>
                      </div>
