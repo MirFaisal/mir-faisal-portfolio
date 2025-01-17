@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Person">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -51,7 +51,11 @@
     <link rel="stylesheet" href="./css/resume.css" />
     <link rel="stylesheet" href="./css/breakpoints.css" />
     <!-- local css -->
-
+    <meta itemprop="name" content="Mir Faisal Ahmad" />
+    <meta itemprop="jobTitle" content="Fullstack Developer and UX Architect" />
+    <meta itemprop="description" content="Discover the comprehensive professional journey of Mir Faisal Ahmad, an experienced fullstack developer and UX architect. Learn about his skills, projects, and achievements in the tech industry." />
+    <meta itemprop="image" content="/images/og/mirfaisalahmad-resume.png" />
+    <meta itemprop="url" content="https://mirfaisal.me/resume.html" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1GYK65KLWJ"></script>
     <script>
@@ -96,12 +100,12 @@
     </nav>
     <!-- navbar End-->
     <!-- Main Section Start -->
-    <section id="main">
+    <section id="main" itemscope itemtype="http://schema.org/CreativeWork">
       <div class="container">
         <div class="timeline w-75 m-auto">
           <div class="intro-text">
-            <h2>Resume</h2>
-            <p>
+            <h2 itemprop="headline">Resume</h2>
+            <p itemprop="text">
               Reach out to me via my
               <a href="./contact.html">contact page</a> or
               <a
@@ -112,7 +116,7 @@
               the resume.
             </p>
           </div>
-          <div class="resume">
+          <div class="resume" itemprop="hasPart" itemscope itemtype="http://schema.org/DigitalDocument">
             <div
               style="
                 position: relative;
@@ -143,6 +147,7 @@
                 src="https://www.canva.com/design/DAGcBNP0tpg/saJrocOEBLgtnlKJwogh6w/view?embed"
                 allowfullscreen="allowfullscreen"
                 allow="fullscreen"
+                itemprop="url"
               >
               </iframe>
             </div>
@@ -160,6 +165,7 @@
           </a>
           <div
             class="social-link d-flex justify-content-lg-between align-items-center w-25 justify-content-around"
+            itemprop="sameAs"
           >
             <a target="_blank" href="https://github.com/MirFaisal"><i class="fa-brands fa-github"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/mirfaisal08/"
