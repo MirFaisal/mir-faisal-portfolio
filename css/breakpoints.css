@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
 /* For ex small */
-@media (min-width: 350px) and (max-width: 575.98px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
   /* index page */
   /* common style */
   .btn-main {
@@ -15,17 +15,30 @@
     position: fixed;
     bottom: 3%;
     left: 50%;
-    /* background: rgba(59, 59, 59, 0.082); */
     background: #ffffff77;
     backdrop-filter: blur(15px);
     border-radius: 50px;
     transform: translate(-50%, -3%);
+    z-index: 999;
   }
   #main .social-link i {
     font-size: 20px;
     color: black;
     font-weight: 700;
   }
+  #main .social-link .offcanvas-bottom {
+    position: absolute;
+    transition: 0 !important;
+    max-height: 420px !important;
+    bottom: 0;
+    background: #fafafa;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 50px 50px 34px 34px !important;
+    border: 0 !important;
+    z-index: -1 !important;
+  }
+
   /* common style */
 
   /* animation */
@@ -43,7 +56,8 @@
     border-radius: 0 0px 15px 15px;
   }
   .navbar .navbar-brand img {
-    width: 80%;
+    width: 40%;
+    padding-left: 5px;
   }
   .navbar .navbar-toggler {
     border: 0;
@@ -53,12 +67,20 @@
     outline: 0;
     box-shadow: none;
   }
-  .navbar .navbar-nav {
+  .navbar .navbar-nav,
+  #main .social-link .offcanvas-bottom .offcanvas-body .navbar-nav {
     align-items: center;
     justify-content: start;
     border-radius: 5px;
   }
-  .navbar .navbar-nav .nav-item .nav-link {
+  .navbar .navbar-nav .nav-item .nav-link,
+  #main
+    .social-link
+    .offcanvas-bottom
+    .offcanvas-body
+    .navbar-nav
+    .nav-item
+    .nav-link {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     margin-bottom: 20px;

@@ -31,7 +31,8 @@ body::after {
 }
 #main .timeline .nav-btn .mixitup-control-active {
   color: #fffdfc !important;
-  background: #9370db !important;
+  /* background: #9370db !important; */
+  background: var(--mf-link-hover-color) !important;
 }
 #main .timeline .nav-btn .btn-main {
   padding: 5px 20px;
@@ -45,7 +46,8 @@ body::after {
 
 #main .timeline .nav-btn .btn-main:hover {
   color: #fffdfc;
-  background: #9370db;
+  /* background: #9370db; */
+  background: var(--mf-link-hover-color);
 }
 #main .timeline .project-preview {
   display: flex;
@@ -53,6 +55,7 @@ body::after {
   gap: 30px;
   flex-wrap: wrap;
   margin-bottom: 80px;
+  overflow: hidden;
 }
 #main .timeline .project-preview .item {
   width: 48%;
@@ -92,14 +95,7 @@ body::after {
   font-size: 13px;
   margin-bottom: 10px;
 }
-#main
-  .timeline
-  .project-preview
-  .item
-  .overlay
-  .inner-info
-  .technologies
-  small {
+#main .timeline .project-preview .item .overlay .inner-info .technologies small {
   background: #8584848d;
   font-size: 11px;
   display: inline-block;
@@ -127,8 +123,7 @@ body::after {
 #main .timeline .project-preview .item .soccer-live-score {
   width: 100%;
   height: 100%;
-  background: url(../images/projects-preview/Soccer-Live-Score.png) no-repeat
-    center;
+  background: url(../images/projects-preview/Soccer-Live-Score.png) no-repeat center;
   background-size: 150%;
   box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
   -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
@@ -146,8 +141,7 @@ body::after {
 #main .timeline .project-preview .item .panda-commerce-bootstrap {
   width: 100%;
   height: 100%;
-  background: url(../images/projects-preview/panda-commerce-bootstrap.png)
-    no-repeat center;
+  background: url(../images/projects-preview/panda-commerce-bootstrap.png) no-repeat center;
   background-size: 110%;
   box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
   -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
@@ -165,8 +159,7 @@ body::after {
 #main .timeline .project-preview .item .course-basket {
   width: 100%;
   height: 100%;
-  background: url(../images/projects-preview/Course\ Basket.png) no-repeat
-    center;
+  background: url(../images/projects-preview/Course\ Basket.png) no-repeat center;
   background-size: 130%;
   box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
   -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
@@ -202,8 +195,7 @@ body::after {
 #main .timeline .project-preview .item .influencer-gear {
   width: 100%;
   height: 100%;
-  background: url(../images/projects-preview/influencer-gear.png) no-repeat
-    center;
+  background: url(../images/projects-preview/influencer-gear.png) no-repeat center;
   background-size: 130%;
   box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
   -webkit-box-shadow: -1px -38px 55px -8px rgba(0, 0, 0, 0.11) inset;
